@@ -1,6 +1,6 @@
 import pandas as pd
 
-poke = pd.read_csv('pokemon_data.csv')
+df = pd.read_csv('pokemon_data.csv') # put name df called data-frame 
 
-print(poke.tail(5))
+print(df.tail(5))
 
